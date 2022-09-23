@@ -1,3 +1,10 @@
+.card-background {
+  border-left: 4px solid #ad0d65;
+  border-top: 4px solid #ad0d65;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -26,6 +33,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.not-found {
+  height: 60vh;
 }
 
 @keyframes App-logo-spin {
