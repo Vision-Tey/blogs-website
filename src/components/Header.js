@@ -24,7 +24,9 @@ const Header = ({ active, setActive, user, handleLogout }) => {
                             >
                                 <span className='fa fa-bars'></span>
                             </button>
+                           <div className='navbar-logo'>ProkieProBlogger</div>
                             <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+                                 
                                 <ul className='navbar-nav me-auto mb-2 mb-lg-0' >
                                     <Link to='/' style={{ textDecoration: 'none' }}>
                                         <li className={`nav-item nav-link ${active === "home" ? "active" : ""

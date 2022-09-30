@@ -39,6 +39,14 @@
   height: 60vh;
 }
 
+.navbar-logo {
+  margin-right: 140px;
+  font-weight: 700;
+  color: #ad0d65;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
